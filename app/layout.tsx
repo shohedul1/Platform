@@ -14,6 +14,9 @@ const IBMPlex = IBM_Plex_Sans({
 export const metadata: Metadata = {
   title: "Imaginify",
   description: "AI-powerd imaged generator",
+  icons: {
+    icon: '/assets/favicon.ico'
+  }
 };
 
 export default function RootLayout({
